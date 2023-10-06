@@ -1,23 +1,25 @@
-name: Zola
-
+name: Build and Deploy
 on:
   push:
-    branches: [ main ]
-  workflow_dispatch:
+    branches:
+      - main
 
-# Allow one concurrent deployment
 concurrency:
   group: "pages"
   cancel-in-progress: true
-
+  
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
-    
     steps:
-    - uses: actions/checkout@v3
-      
-    - name: Build and deploy
-      uses: shalzz/zola-deploy-action@master
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+      - name: Install Zola
+        run: |
+          curl -sSLf https://github.com/getzola/zola/releases/latest/download/install.sh | sh
+      - name: Build Website
+        run: zola build
+      - name: Deploy to GitHub Pages
+        uses: shalzz/zola-deploy-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
