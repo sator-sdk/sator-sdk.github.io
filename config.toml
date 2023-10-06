@@ -1,0 +1,35 @@
+base_url = "https://sator-sdk.github.io"
+title = "sator-sdk"
+compile_sass = true
+build_search_index = true
+generate_feed = true
+minify_html = true
+
+theme = "apollo"
+
+[markdown]
+highlight_code = true
+highlight_theme = "ayu-dark"
+
+[extra]
+use_cdn = false
+theme = "toggle"
+
+menu = [
+    { name = "/posts", url = "/posts", weight = 1 },
+    { name = "/projects", url = "/projects", weight = 2 },
+    { name = "/about", url = "/about", weight = 3 },
+]
+
+socials = [
+    { name = "twitter", url = "LOL", icon = "twitter" },
+    { name = "github", url = "https://github.com/sator-sdk", icon = "github" },
+]
+
+[extra.analytics]
+enabled = true
+goatcounter_user = ""
+
+# Whether to automatically compile all Sass files in the sass directory
+#compile_sass = true
+
