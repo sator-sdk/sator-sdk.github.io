@@ -1,6 +1,6 @@
 +++
 title = "Hash Spray Domain Controller"
-description = "Python script that perform a Pre-Auth with a Domain Controller with a given username and a list of hashes "
+description = "Python script that perform a Pre-Auth with a Domain Controller with a given username and a list of hashes"
 date = 2023-06-06
 
 [extra]
