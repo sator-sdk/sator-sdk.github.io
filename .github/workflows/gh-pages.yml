@@ -30,7 +30,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-        ZOLA_VERSION: "0.17.2"
+        ZOLA_VERSION: "0.15.3"
     steps:
       - name: Install Zola
         run: |
