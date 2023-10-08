@@ -24,7 +24,7 @@ In the Recon phase one of the first step to see the bigger picture, is to unders
 So the ASN is one of the `root` points of this mapping since will be extreamly significant in some situations to take actions in consideration of different ASN characteristics and providers.
 
 Even more useful is to know what Network to test on in presence of a significant number of IPs.
-Since the dislocation of an Enterprise could be (and should be) accross multiple ASN providers, the Network ranges will be in very high CIDR order tipically from `/14` or '/16' or even lower in some situations,and difficult to test without making noise on the network.
+Since the dislocation of an Enterprise could be (and should be) accross multiple ASN providers, the Network ranges will be in very high CIDR order tipically from `/14` or `/16` or even lower in some situations, and difficult to test without making noise on the network.
 
 ## Mapping the ASN
 

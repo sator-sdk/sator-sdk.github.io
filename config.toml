@@ -22,14 +22,15 @@ menu = [
 ]
 
 socials = [
-    { name = "twitter", url = "LOL", icon = "twitter" },
+    #{ name = "twitter", url = "", icon = "twitter" },
     { name = "github", url = "https://github.com/sator-sdk", icon = "github" },
+    { name = "session", url = "", icon = "session" },
+    { name = "briar", url = "", icon = "briar" },
+    { name = "tox", url = "", icon = "tox" },
+    { name = "keybase", url = "", icon = "keybase" },
 ]
 
 [extra.analytics]
 enabled = true
 goatcounter_user = ""
-
-# Whether to automatically compile all Sass files in the sass directory
-#compile_sass = true
 
