@@ -18,16 +18,16 @@ theme = "toggle"
 menu = [
     { name = "/posts", url = "/posts", weight = 1 },
     { name = "/projects", url = "/projects", weight = 2 },
-    { name = "/about", url = "/about", weight = 3 },
+    { name = "/links&contact", url = "/links&contact", weight = 3 },
 ]
 
 socials = [
     #{ name = "twitter", url = "", icon = "twitter" },
     { name = "github", url = "https://github.com/sator-sdk", icon = "github" },
-    { name = "session", url = "", icon = "session" },
-    { name = "briar", url = "", icon = "briar" },
-    { name = "tox", url = "", icon = "tox" },
-    { name = "keybase", url = "", icon = "keybase" },
+    { name = "session", url = "https://getsession.org/", icon = "session" },
+    { name = "briar", url = "https://briarproject.org/", icon = "briar" },
+    { name = "tox", url = "https://tox.chat/", icon = "tox-green" },
+    { name = "xmpp", url = "https://xmpp.org/getting-started/", icon = "xmpp" },
 ]
 
 [extra.analytics]

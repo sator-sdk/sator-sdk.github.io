@@ -13,3 +13,19 @@
   src: url('../fonts/SpaceGrotesk/SpaceGrotesk-Regular.ttf'), local('ttf');
   font-display: swap;
 }
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  src: url('../fonts/Roboto/Roboto-Regular.ttf'), local('ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 200;
+  src: url('../fonts/FiraSans/FiraSans-Regular.ttf'), local('ttf');
+  font-display: swap;
+}

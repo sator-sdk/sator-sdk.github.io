@@ -32,7 +32,7 @@ First step to map a Company traces inside an ASN is to map its subdomains and th
 
 Let's begin with the first three tools from **ProjectDiscovery** that are a very good subdomain enum, a DNS inspector and an ASN crawler:
 
-* [Subfinder](https://github.com/projectdiscovery/subfinder)
+* [subfinder](https://github.com/projectdiscovery/subfinder)
 * [dnsx](https://github.com/projectdiscovery/dnsx)
 * [asnmap](https://github.com/projectdiscovery/asnmap)
 
@@ -60,6 +60,6 @@ python ASN-recon.py target.json hostsfile.json
 Output example of the script
 </p>
 
-This is jsut a demonstration of the capilities of those tools but as you can see with a few chained commands we were able to gather a pretty decent ammount of info and organize them toghether.
+This is jsut a demonstration of how powerful those tools are, but as you can see with a few chained commands we were able to gather a pretty decent ammount of info and organize them toghether.
 
 In the Next article I will show how to inspect separatly each Network with [HEDnsExtractor](https://github.com/HuntDownProject/HEDnsExtractor) from HuntDownProject to further enumerate hidden instances in the same network.

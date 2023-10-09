@@ -1,4 +1,4 @@
 +++
-title = "About"
-path = "about"
+title = "Links & Contact"
+path = "links&contact"
 +++
